@@ -1,0 +1,24 @@
+%\section{Conclusion and Future Work}
+%In this paper, we have presented a novel approach that enables partial loading
+%of XMI-based models. The proposed approach is aimed at scenarios where read-only
+%access to the models is required and where the parts of the model (typically a
+%small subset of the entire model) that are of interest are known in advance.
+%Extensive benchmarking has illustrated that the proposed algorithm scales
+%linearly with respect to the size of the part of the model that is of interest
+%both in terms of loading time and in terms of memory footprint. The prototype of
+%SmartSAX is available on GitHub\footnote{\url{https://github.com/wrwei/SmartSAX}}.
+%
+%We are currently working on integrating the developed prototype with the static
+%analysis facilities \cite{Wei2014} of the Epsilon
+%platform\footnote{\url{http://www.eclipse.org/epsilon}}, to enable automated
+%computation of effective metamodels from Epsilon model management programs (e.g.
+%M2M/M2T transformations, validation constraints) and facilitate transparent
+%partial model loading. We are also working on supporting \emph{fragment paths}
+%for identifying and locating objects when resolving resolution to maintain
+%compatibility.
+
+
+
+%We presented how SmartSAX works and we contribute the idea of effective metamodel reconciliation from Java basic struct-based effective metamodels; and traversal planning for visiting part of the models along a tree-structured model. To our best knowledge, this is the first work that attempts to partially load XMI-based models using SAX parser. The benchmarks we run against the GRABATS models exhibit good improvement upon using SmartSAX. SmartSAX is light weight, it extends the existing EMF SAX parser and can be deployed easily on EMF tools. The \emph{Effective Metamodel} and related tools are generic which allows other tools to provide information to SmartSAX without compatibility issues.
+
+%In \cite{wei2014}, we propose a static analysis framework on the Epsilon platform, we will devise an effective metamodel extraction tool by extending the framework to allow it to automatically extract effective metamodel from model queries and transformations. In the future, we will look into how model queries can be further improved with SmartSAX and static analysis. We will also look if partial saving can be achieved by extending SmartSAX.

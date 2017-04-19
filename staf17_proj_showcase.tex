@@ -1,0 +1,89 @@
+\documentclass[runningheads,a4paper]{llncs}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{eurosym}
+%\usepackage{multirow}
+%\usepackage{booktabs}
+%\usepackage{algorithm2e}
+\usepackage{pgfplots}
+\usepackage{subfig}
+\usepackage[hidelinks]{hyperref}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{url}
+\usetikzlibrary{arrows,calc}
+\pgfplotsset{width=3.4cm,compat=1.7}
+%\pgfplotsset{every axis legend/.append style={
+%		at={(0,0)},
+%		anchor=north east}}
+\renewcommand{\UrlFont}{\footnotesize}
+\usepackage{listings, color}
+%\urldef{\mailsa}\path|{alfred.hofmann, ursula.barth, ingrid.haas, frank.holzwarth,|
+%	\urldef{\mailsb}\path|anna.kramer, leonie.kunz, christine.reiss, nicole.sator,|
+%	\urldef{\mailsc}\path|erika.siebert-cole, peter.strasser, lncs}@springer.com|    
+%\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+%	\noindent\keywordname\enspace\ignorespaces#1}
+
+\authorrunning{Ran Wei, Timothy P. Kelly, Richard Hawkins}
+
+
+\definecolor{mygray}{rgb}{0.95,0.95,0.95}
+\lstset{frame=none,
+	backgroundcolor=\color{mygray},
+	language=Octave,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	xleftmargin=15pt,
+	numbers=left,
+	breaklines=true,
+	breakatwhitespace=false,
+	tabsize=2,
+	captionpos=b,
+}
+
+\lstdefinelanguage{EOL}{
+	morekeywords={delete,import,for,while,in,and,or,self,operation,return,def,var,throw,if,new,else,transaction,abort,break,breakAll,continue,assert,assertError,not, switch, case, default, model, driver, alias, Any, Integer, Real, String, Boolean, Sequence, Bag, Set, OrderedSet, println, \(\)},
+	sensitive=true,
+	morecomment=[l]{//},
+	morecomment=[l]{--},
+	morecomment=[s]{/*}{*/},
+	morecomment=[s]{-*}{*-},
+	morestring=[b]",
+	morestring=[b]',
+	showstringspaces=false
+}
+
+
+\begin{document}
+ 
+\title{\textbf{DEIS: Dependability Engineering Innovation for Cyber Physical Systems}}
+\author{Ran Wei\and Timothy P. Kelly \and Richard Hawkins}
+\institute{Department of Computer Science, \\ University of York, United Kingdom \\ ran.wei, tim.kelly, richard.hawkins@york.ac.uk}
+\maketitle
+
+
+\input{abstract}
+
+\input{section1}
+
+\input{section2}
+
+\input{section3}
+
+\input{section4}
+
+\input{section5}
+
+\input{section6}
+
+
+\vspace{0.2cm}
+\noindent\textbf{Acknowledgements} .
+
+\bibliographystyle{unsrt} 
+\bibliography{bibliography}  
+
+\end{document}
