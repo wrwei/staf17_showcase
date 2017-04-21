@@ -1,5 +1,46 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: staf17_proj_showcase.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: staf17_proj_showcase.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for ""
-(There was 1 warning)
+You've used 6 entries,
+            1791 wiz_defined-function locations,
+            492 strings with 4918 characters,
+and the built_in function-call counts, 1734 in all, are:
+= -- 166
+> -- 59
+< -- 3
++ -- 22
+- -- 16
+* -- 100
+:= -- 248
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 92
+empty$ -- 179
+format.name$ -- 16
+if$ -- 418
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 52
+stack$ -- 0
+substring$ -- 112
+swap$ -- 34
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 16
+width$ -- 7
+write$ -- 71
