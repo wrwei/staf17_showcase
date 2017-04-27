@@ -15,7 +15,7 @@
 \usepackage{listings, color}
 
 
-\authorrunning{Ran Wei, Timothy P. Kelly, Richard Hawkins}
+\authorrunning{Ran Wei, Tim P. Kelly, Richard Hawkins, and Eric Armengaud}
 
 \makeatletter
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
@@ -36,10 +36,38 @@
 \begin{document}
  
 \title{\textbf{DEIS: Dependability Engineering Innovation for Cyber Physical Systems}}
-\author{Ran Wei\and Timothy P. Kelly \and Richard Hawkins}
-\institute{Department of Computer Science, \\ University of York, United Kingdom \\ ran.wei, tim.kelly, richard.hawkins@york.ac.uk}
+\author{Ran Wei\inst{1} \and Tim P. Kelly\inst{1} \and Richard Hawkins\inst{1} 
+\and Eric Armengaud\inst{2} 
+%\and Martin Rothfelder\inst{3}
+%\and Alberto Pisoni\inst{4}
+%\and Riccardo Groppo\inst{5}
+%\and Eoin O'Carroll\inst{6} 
+%\and Mario Trapp\inst{7}
+%\and Yiannis Papadopoulos\inst{8}
+%\and Federica Villa\inst{9} 
+%\and Fergal McCaffery\inst{10}
+}
+\institute{University of York, United Kingdom \email{ran.wei,tim.kelly,richard.hawkins@york.ac.uk}
+\and
+AVL List GmbH, Austria \\\email{eric.armengaud@avl.com}
+%\and
+%Siemens AG, Germany
+%\and
+%General Motors Powertrain-Europe S.r.l, Italy
+%\and
+%Ideas \& Motions S.r.l, Italy
+%\and
+%Portable Medical Technology Ltd, Ireland
+%\and
+%Fraunhofer-Institute for Experimental Software Engineering, Germany
+%\and
+%University of Hull, United Kingdom
+%\and
+%Politecnico di Milano, Italy
+%\and
+%RSRC ad Dundalk Institute of Technology, Ireland
+}
 \maketitle
-
 
 \input{abstract}
 
@@ -58,7 +86,50 @@
 \input{section7}
 
 \noindent\textbf{Acknowledgements}
-The DEIS project is supported by the EU framework Program Horizon 2020. 
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 732242. This paper summarises the project description, concepts, and plan from the original DEIS proposal. We acknowledge the original authors of the original DEIS proposal: 
+
+%\textbf{AVL List GmbH, Austria}:Eric Armengaud, Nadine Knopper, Stephen Jones, Mario Oswald, Gerhard Griessnig; 
+%\textbf{Siemens AG, Germany}: Martin Rothfelder, Kai H{\"o}fig, Marc Zeller; 
+%\textbf{General Motors Powertrain-Europe S.r.l, Italy}: Alberto Pisoni, Federico Galliano, Massimiliano Melis; 
+%\textbf{Ideas \& Motions S.r.l, Italy}: Riccardo Groppo, Alberto Manzone, Paolo Santero, Marco Novaro; 
+%\textbf{Portable Medical Technology Ltd, Ireland}: Eoin O`Carroll, Kevin Bambury, Richard Bambury; 
+%\textbf{Fraunhofer-Institute for Experimental Software Engineering, Germany}: Mario Trapp, Daniel Schneider; 
+%\textbf{University of Hull, United Kingdom}: Yiannis Papadopoulos; 
+%\textbf{Politecnico di Milano, Italy}: Federica Villa, Franco Zappa, Alberto Tosi, Marco Marcon; 
+%\textbf{RSRC ad Dundalk Institute of Technology, Ireland}: Fergal McCaffery, Anita Finnegan.
+
+\begin{itemize}
+	\item \textbf{AVL List GmbH, Austria}:Eric Armengaud, Nadine Knopper, Stephen Jones, Mario Oswald, Gerhard Griessnig 
+	\item \textbf{Siemens AG, Germany}: Martin Rothfelder, Kai H{\"o}fig, Marc Zeller
+	\item \textbf{General Motors Powertrain-Europe S.r.l, Italy}: Alberto Pisoni, Federico Galliano, Massimiliano Melis
+	\item \textbf{Ideas \& Motions S.r.l, Italy}: Riccardo Groppo, Alberto Manzone, Paolo Santero, Marco Novaro
+	\item \textbf{Portable Medical Technology Ltd, Ireland}: Eoin O`Carroll, Kevin Bambury, Richard Bambury
+	\item \textbf{Fraunhofer-Institute for Experimental Software Engineering, Germany}: Mario Trapp, Daniel Schneider
+	\item \textbf{University of Hull, United Kingdom}: Yiannis Papadopoulos
+	\item \textbf{Politecnico di Milano, Italy}: Federica Villa, Franco Zappa, Alberto Tosi, Marco Marcon
+	\item \textbf{RSRC ad Dundalk Institute of Technology, Ireland}: Fergal McCaffery, Anita Finnegan
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+%\and Eric Armengaud\inst{2} \and
+%Nadine Knopper\inst{2} \and Stephen Jones\inst{2} \and Mario Oswald\inst{2} \and
+%Gerhard Griessnig\inst{2} 
+%\and \\Martin Rothfelder\inst{3} \and Kai H{\"o}fig\inst{3} \and Marc Zeller\inst{3}
+%\and \\Alberto Pisoni\inst{4} \and Federico Galliano\inst{4} \and Massimiliano Melis\inst{4} 
+%\and \\Riccardo Groppo\inst{5} \and Alberto Manzone\inst{5} \and Paolo Santero\inst{5} \and Marco Novaro\inst{5}
+%\and \\Eoin O`Carroll\inst{6} \and Kevin Bambury\inst{6} \and Richard Bambury\inst{6}
+%\and \\Mario Trapp\inst{7} \and Daniel Schneider\inst{7}
+%\and \\Yiannis Papadopoulos\inst{8}
+%\and \\Federica Villa\inst{9} \and Franco Zappa\inst{9} \and Alberto Tosi\inst{9} \and Marco Marcon\inst{9}
+%\and \\Fergal McCaffery\inst{10} \and Anita Finnegan\inst{10}
 
 \bibliographystyle{unsrt} 
 \bibliography{bibliography}  

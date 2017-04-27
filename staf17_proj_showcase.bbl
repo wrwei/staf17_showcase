@@ -33,6 +33,12 @@ Tim Kelly and Rob Weaver.
 \newblock In {\em Proceedings of the dependable systems and networks 2004
   workshop on assurance cases}. Citeseer, 2004.
 
+\bibitem{sacm2}
+Object~Management Group.
+\newblock {Structured Assurance Case Metamodel}.
+\newblock \url{http://www.omg.org/spec/SACM/}.
+\newblock Accessed 27-04-2017.
+
 \bibitem{Schneider2003}
 Daniel Schneider and Mario Trapp.
 \newblock Conditional safety certification of open adaptive systems.
